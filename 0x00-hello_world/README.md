@@ -1,0 +1,1 @@
+This repo contains series of solution for C programming tasks ALx internship                                                                                                                            
