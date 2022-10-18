@@ -1,18 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
- *main-program entry point.
- *Return:0 if no error, non zero if error.
+ * main - Prints the alphabet without q and e.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char i;
+  	int i;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = 97; i < 123; i++)
 	{
-		if (i == 'e' || i == 'q')
-			continue;	
+		if (i != 101 && i != 113)
+		{
 		putchar(i);
+		}
 	}
 	putchar('\n');
 	return (0);
