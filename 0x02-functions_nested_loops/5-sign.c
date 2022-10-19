@@ -1,4 +1,4 @@
-#include "maiin.h"
+#include "main.h"
 
 /**
  * print_sign - checks if an integer is +ve, -ve or 0
