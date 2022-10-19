@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * jack_bauer - print every minutes in a day 00:00
