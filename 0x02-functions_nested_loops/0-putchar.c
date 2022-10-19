@@ -1,7 +1,8 @@
 #include "main.h"
-/** using user define header file (main.h) to print characters
+/**
+ * main - print _putchar
  * created by ADB
- * program should return 0
+ * Return: 0
  **/
 
 int main(void)
