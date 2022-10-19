@@ -7,7 +7,6 @@
 
 void jack_bauer(void)
 {
-	int count = 0;
 	int min;
 	int hr;
 
