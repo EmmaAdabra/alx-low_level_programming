@@ -1,0 +1,2 @@
+This directory contains solutions tasks about functions, header files and nested loops with C.
+Basically, how to include user define .h files in a program, how to create and use a function and using nested loops properly.
