@@ -13,7 +13,7 @@ void jack_bauer(void)
 
 	while (count <= 23)
 	{
-		for (min <= 59)
+		for (min = 0; min <= 59; min++)
 		{
 			if (min != 59)
 			{
@@ -27,7 +27,7 @@ void jack_bauer(void)
 				_putchar(((hr - 1) % 10) + '0');
 			}
 
-			_puchar(':');
+			_putchar(':');
 			_putchar((min / 10) + '0');
 			_putchar((min % 10) + '0');
 			_putchar('\n');
