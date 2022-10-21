@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
  * print_numbers - print numbers 0 - 9
@@ -10,6 +9,7 @@ void print_numbers(void)
 	while (n < 10)
 	{
 		_putchar(n + '0');
-	}	n++;
+		n++;
+	}
 	_putchar('\n');
 }
