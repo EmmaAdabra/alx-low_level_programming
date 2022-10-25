@@ -18,7 +18,7 @@ void print_rev(char *s)
 	{
 		tmp = s[index];
 		s[index] = s[index2];
-		s[index2] = temp;
+		s[index2] = tmp;
 		index2++;
 	}
 }
