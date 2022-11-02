@@ -1,6 +1,6 @@
-#ifndef HOLBERTON_H
+#ifndef MAIN_H
 
-#define HOLBERTON_H
+#define MAIN_H
 
 
 
@@ -13,10 +13,6 @@
  * used in the 0x06-pointers_arrays_strings directory.
 
  */
-
-
-
-#include <stddef.h>
 
 
 int _putchar(char c);
