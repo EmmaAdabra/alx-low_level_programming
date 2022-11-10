@@ -7,7 +7,7 @@
   * @b: size of the memory to be created
   * Return: void
   */
-void *malloc_checked(unsigned int b)void *malloc_checked(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
 	void *buffer;
 
