@@ -21,6 +21,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	buffer = malloc(sizeof(char) * (len + n + 1));
 
+	if (buffer == NULL)
+		return (NULL);
+
 	for (index = 0; index < len + n + 1; index++)
 	{
 		if (index < len)
@@ -35,9 +38,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 
 	buffer[index] = '\0';
-
-	if (buffer == NULL)
-		return (NULL);
 
 	return (buffer);
 }
