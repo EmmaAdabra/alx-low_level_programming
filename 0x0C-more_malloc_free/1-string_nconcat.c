@@ -19,12 +19,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (indx = 0; s1[indx]; indx++)
 		len++;
 
-	buffer = malloc(sizeof(char) * (len + n + 1));
+	buffer = malloc(sizeof(char) * (len + n));
 
 	if (buffer == NULL)
 		return (NULL);
 
-	for (index = 0; index < len + n + 1; index++)
+	for (index = 0; index < len + n; index++)
 	{
 		if (index < len)
 		{
