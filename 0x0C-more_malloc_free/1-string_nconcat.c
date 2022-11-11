@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * string_nconcat - concatenate two string to n size of the second string
@@ -9,14 +10,13 @@
  * Return: The memory address of concatenated string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
-
 {
-	int index, index2 = 0;
+	unsigned int index, index2 = 0;
 	char *buffer;
 	int indx;
-	int len = 0;
+	unsigned int len = 0;
 
-	for (indx = 0; src[indx]; indx++)
+	for (indx = 0; s1[indx]; indx++)
 		len++;
 
 	buffer = malloc(sizeof(char) * (len + n + 1));
