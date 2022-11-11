@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
  * string_nconcat - concatenate two string to n size of the second string
@@ -15,6 +14,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *buffer;
 	int indx;
 	unsigned int len = 0;
+
+	if (s1 == NULL)
+
+		s1 = "";
+
+	if (s2 == NULL)
+
+		s2 = "";
 
 	for (indx = 0; s1[indx]; indx++)
 		len++;
