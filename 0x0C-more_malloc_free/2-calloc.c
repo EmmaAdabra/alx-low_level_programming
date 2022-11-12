@@ -21,7 +21,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (buffer == NULL)
 		return (NULL);
 
-	buffer = _memset;
+	_memset = buffer;
 	for (index = 0; index < (size * nmemb); index++)
 		_memset[index] = '\0';
 
