@@ -1,3 +1,6 @@
+#include "main.h"
+#include <stdlib.h>
+
 /**
  * _calloc - returns a pointer to an array memory
  * @nmemb: get the number of element to be stored in  the array
