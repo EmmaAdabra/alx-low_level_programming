@@ -8,7 +8,7 @@
   * @owner: owner of the dog
   * Descriptin: struct dog contains three variable.
   */
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
