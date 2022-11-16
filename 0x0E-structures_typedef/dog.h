@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
-  * dog - struct tag name (dog)
+  * struct dog - struct tag name (dog)
   * @name: name of the dog
   * @age: age of the in accept decimal
   * @owner: owner of the dog
