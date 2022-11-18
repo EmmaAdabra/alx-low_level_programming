@@ -11,7 +11,7 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list udef_nums;
+	va_list undef_num;
 	unsigned int index, sum = 0;
 
 	if (n == 0)
@@ -22,7 +22,7 @@ int sum_them_all(const unsigned int n, ...)
 	for (index = 0; index < n; index++)
 		sum += va_arg(undef_num, int);
 
-	va_end(undef_nums);
+	va_end(undef_num);
 
 	return (sum);
 }
